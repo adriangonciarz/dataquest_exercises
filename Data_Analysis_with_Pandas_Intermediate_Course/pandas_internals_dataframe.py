@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 
-fandango = pd.read_csv("fandango_score_comparison.csv")
+fandango = pd.read_csv("../csvs/fandango_score_comparison.csv")
 # print(fandango.head(2))
 # print(fandango.index.values)
 last_row_idx = len(fandango.index) - 1

@@ -1,7 +1,7 @@
 import pandas as pd
 
-all_ages = pd.read_csv("all-ages.csv")
-recent_grads = pd.read_csv("recent-grads.csv")
+all_ages = pd.read_csv("../csvs/all-ages.csv")
+recent_grads = pd.read_csv("../csvs/recent-grads.csv")
 print(all_ages.head(5))
 print(recent_grads.head(5))
 aa_cats = all_ages["Major_category"].unique()

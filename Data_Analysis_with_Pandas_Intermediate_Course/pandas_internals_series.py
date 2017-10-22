@@ -1,7 +1,7 @@
 import pandas as pd
 from pandas import Series
 
-fandango = pd.read_csv("fandango_score_comparison.csv")
+fandango = pd.read_csv("../csvs/fandango_score_comparison.csv")
 # print(fandango.head(2))
 series_film = fandango["FILM"]
 # print(series_film.head(5))
